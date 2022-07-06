@@ -1,0 +1,40 @@
+.carousel{
+    height: 30rem;
+}
+.carousel-background{
+    background-color: rgb(232, 230, 230);
+}
+.carousel-item{
+    text-align: center;
+}
+.title-text{
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: rgb(5, 25, 77);
+}
+.title-p{
+font-size: 1.25rem;
+color: rgb(5, 25, 77);
+
+}
+.title-text-container{
+    margin-top: 5%;
+    
+}
+.title-button{
+    background-color: rgb(5, 25, 77);
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.title-button:hover{
+    background-color: rgb(5, 20, 53);
+}

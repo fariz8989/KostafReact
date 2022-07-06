@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(232, 230, 230);
+}
+#career{
+    
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    padding: 20px 10px;
+    
+   
+}
+.title h1{
+    margin: 20px 0;
+    color: rgb(5, 25, 77);
+    
+}
+.job-container{
+    display: grid;
+   grid-template-columns: 0.25fr 1fr 0.4fr;
+   grid-template-rows: repeat(2,0.5fr);
+   border: solid 2px rgb(5, 25, 77);
+   border-radius: 10px;
+   background-color: white;
+  
+}
+.job-title{
+    grid-column: 2/3;
+    color: rgb(5, 25, 77);
+    padding: 20px 0 0 0;
+
+}
+.job-title h2{
+    font-weight: 700;
+}
+.job-req{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.job-req-title{
+    color: rgb(0, 0, 0, 0.5);
+    margin-top: 20px ;
+    margin-bottom: 0;
+}
+.job-req-text{
+    font-weight: 600;
+    color: black;
+}
+.logo-container{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job-logo{
+  width: 50%;
+}
+.job-button{
+    background-color: rgb(5, 25, 77);
+    color: white;
+    border: none;
+    width: 70%;
+    height: 25%;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.job-button:hover{
+    background-color:  rgb(5, 20, 53);
+ }
+ .job-button-container{
+    grid-row: 1/3;
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }

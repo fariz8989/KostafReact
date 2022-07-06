@@ -1,0 +1,67 @@
+#about-us{
+    background-color: rgb(232, 230, 230);
+}
+.about-title-container{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    padding: 30px 0 0;
+    
+}
+.about-logo-container{
+    flex: 5%;
+    text-align: right;
+    padding: 0 20px;
+    
+}
+
+.about-h1-container{
+    flex: 40%;
+    text-align: left;
+}
+.about-title-container h1{
+    font-size: 2.75rem;
+    font-family: 'open sans',sans-serif;
+    font-weight: 600;
+    
+}
+.about-logo{
+    width: 60px;
+}
+hr{
+    border: solid;
+    border-width: 2px;
+    width: 7.5%;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: rgb(5, 30, 94);
+}
+.value{
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.value h1{
+    color: rgb(5, 25, 77);
+    font-weight: 700;
+}
+
+.value-left{
+    text-align: left;
+    color: rgb(5, 25, 77);
+    margin: 1rem 10%;
+}
+.value h2{
+    font-weight: 800;
+    font-size: 3.5rem
+}
+.value p{
+    font-size: 1.5rem;
+    color: rgb(146, 141, 141);
+}
+.value-right{
+    color: rgb(5, 25, 77);
+    text-align: right;
+    margin: 1rem 10%;
+}

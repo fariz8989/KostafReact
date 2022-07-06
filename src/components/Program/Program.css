@@ -1,0 +1,38 @@
+#services{
+    text-align: center;
+    color: rgb(5, 25, 77);
+    padding: 40px 5%;
+}
+#services h1{
+    font-weight: 700;
+}
+.service{
+    display: grid;
+    grid-template-rows: repeat(1fr,3);
+    text-align: center;
+    margin: 50px 0;
+    
+}
+.service-list{
+    grid-row: 1/2;
+    padding: 0 30px;
+}
+.service-list h2{
+    margin-bottom: 30px;
+}
+.service-button{
+    background-color: rgb(5, 25, 77);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    height: 2.5rem;
+    width: 15rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-button:hover{
+    background-color: rgb(5, 20, 53);
+    
+}

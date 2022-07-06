@@ -1,0 +1,27 @@
+/*tittle*/
+.navbar{
+    position: sticky;
+    top: 0;
+    box-shadow:0 1px 10px  rgba(0, 0, 0, 0.884);;
+    padding: 20px 15px;
+    margin-bottom: 0px;
+    border: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem!important;
+}
+.logo{
+    width: 65px;
+    margin: 10px 20px;
+}
+
+.nav-item{
+    padding: 0 20px;
+    font-weight: 500;
+    
+}
