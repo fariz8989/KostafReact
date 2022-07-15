@@ -1,7 +1,8 @@
 
 #career{
     background-color: rgb(232, 230, 230);
-    padding: 20px;
+    padding: 1vh 10vw;
+    height: 100vh;
 }
 .title{
     text-align: center;

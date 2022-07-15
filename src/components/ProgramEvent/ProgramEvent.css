@@ -1,0 +1,64 @@
+.program{
+    background-color: rgb(232, 230, 230);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.program .program-card{
+    height: 32vh;
+    background-color: rgb(232, 230, 230);
+    color: white;
+    padding: 30px;
+    border-radius: 14px;
+    min-width: 250px;
+    box-shadow: 12px 0 32px -12px black;
+    margin-left: -110px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.taxplore{
+    background-image: url('./images/Taxplore.png');
+    background-size: 45%;
+}
+.fcw{
+    background-image: url('./images/FCW.png');
+    background-size: 80%;
+}
+.jelajah{
+    background-image: url('./images/Jelajah.png');
+    background-size: 52%;
+}
+.mangkal{
+    background-image: url('./images/Mangkal.png');
+}
+
+.program .program-card:hover{
+    transform: translateY(-16px) rotate(3deg);
+}
+.program .program-card:hover ~ .program-card{
+    transform: translateX(130px);
+}
+.program-card a{
+    text-decoration: none;
+    color: rgb(11, 40, 112);
+    font-family: 'Open Sans';
+   
+}
+.program-card a h2{
+    
+    font-family: 'Open Sans';
+    font-weight: 700
+   
+}
+.program-card a:hover{
+    text-decoration: none;
+  
+}
+.logo-event{
+    width: 10%;
+}

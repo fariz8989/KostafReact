@@ -5,6 +5,7 @@ import Program from "../components/Program/Program"
 import Footer from "../components/Footer/Footer"
 import AboutUs from "../components/AboutUs/AboutUs"
 import Career from "../components/Career/Career"
+import ProgramEvent from '../components/ProgramEvent/ProgramEvent';
 class HomePage extends React.Component{
         render(){
             return(
@@ -36,4 +37,15 @@ class CareerTemplate extends React.Component{
        )
     }
 }
-export {HomePage,About,CareerTemplate};
+class ProgramPage extends React.Component{
+    render(){
+        return(
+            <>
+             <NavBar/>
+            <ProgramEvent/>
+            <Footer/>
+            </>
+        )
+    }
+}
+export {HomePage,About,CareerTemplate,ProgramPage};
